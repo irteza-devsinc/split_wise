@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import TextField from '@mui/material/TextField';
 import './index.css'
-import split from './splitwise.gif';
+//import split from './splitwise.gif';
 import ClipLoader from "react-spinners/CircleLoader";
 import { useHistory } from 'react-router-dom'
 
@@ -92,7 +92,7 @@ export default function Signup() {
         <div className='m-login'>
           <div className='gif-box'>
             {/* <Iframe url="https://giphy.com/embed/xT1R9TaUQfgf5qQZEY" width="50%" height="50%" position='absolute' className="giphy-embed" ></Iframe> */}
-            <img src={split} alt="loading..." style={{ height: '100%', width: '50%', position: 'absolute' }} />
+            <createImageBitmap alt="loading..." style={{ height: '100%', width: '50%', position: 'absolute' }} />
           </div>
           <div className='login-s'>
             <p className='login-head'>SPLITWISE<span style={{ color: '#674fa3' }}>~</span></p>
@@ -112,7 +112,7 @@ export default function Signup() {
               <div style={{ textAlign: 'center', backgroundColor: '#674fa3', borderRadius: '0.5vw', cursor: 'pointer' }} onClick={signup} >
                 <p style={{ color: 'white' }}>Sign Up</p>
               </div>
-              { <button className='login-button' placeholder='Login' /> };
+              {<button className='login-button' placeholder='Login' />};
             </div>
             <p>Have an account?<span onClick={() => { history.push("/login") }} style={{ cursor: 'pointer' }} > Sign in </span></p>
 

@@ -1,0 +1,9 @@
+{
+  "terminal.explorerKind": "both",
+  "terminal.sourceControlRepositoriesKind": "both",
+  "terminal.integrated.allowMnemonics": true,
+  "window.autoDetectColorScheme": true,
+  "window.closeWhenEmpty": true,
+  "window.commandCenter": true,
+  "remote.downloadExtensionsLocally": true
+}
